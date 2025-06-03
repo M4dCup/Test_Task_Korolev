@@ -24,7 +24,9 @@ pip install -r requirements.txt
 Before running, set your OpenAI API key:
 
 ```bash
-export OPENAI_API_KEY="your-openai-key"
+export OPENAI_API_KEY="your-api-key-here"     # Mac/Linux
+set OPENAI_API_KEY="your-api-key-here"        # Windows CMD
+$env:OPENAI_API_KEY="your-api-key-here"       # Windows PowerShell
 ```
 
 This is required for accessing OpenAI's API.
@@ -35,6 +37,10 @@ Start the chatbot with:
 
 ```bash
 langgraph dev
+```
+or:
+```bash
+python main.py
 ```
 
 ## Example
