@@ -23,12 +23,13 @@ if not OPENAI_API_KEY:
 
 # Функция получения текущего времени
 @tool
-def get_current_time() -> dict:
+def get_current_time() -> str:
     """
-    Return the current UTC time in ISO‑8601 format.
-    Example → {"utc": "2025‑05‑21T06:42:00Z"}
+    Return the current UTC time in ISO‑8601 format as a simple text response.
+    Example → "Current UTC time: 2025-05-21T06:42:00Z"
     """
-    return {"utc": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}
+    current_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    return print("Current UTC time:", current_time)
 
 tools = [get_current_time]
 
