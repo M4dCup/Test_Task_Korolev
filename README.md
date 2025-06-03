@@ -15,7 +15,7 @@ Clone the repository and install dependencies:
 ```bash
 git clone <your_repo>
 cd Test_Task_Korolev
-python -m venv .venv && source .venv/bin/activate
+python -m venv .venv and source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
