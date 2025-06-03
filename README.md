@@ -13,7 +13,7 @@ A stateless chatbot using LangGraph and OpenAI GPT-4o that can respond to user m
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your_repo>
+git clone https://github.com/M4dCup/Test_Task_Korolev.git
 cd Test_Task_Korolev
 python -m venv .venv and source .venv/bin/activate
 pip install -r requirements.txt
