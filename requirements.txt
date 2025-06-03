@@ -1,0 +1,4 @@
+langgraph == 0.3.20
+langchain-openai == 0.3.5
+langmem == 0.0.8
+openai >= 0.27.0
